@@ -16,9 +16,6 @@ end
 # ╔═╡ 69170b82-f0ab-11ea-0874-1f0d65e086d2
 using PlutoUI, Plots
 
-# ╔═╡ 5d3b6222-f0ab-11ea-08cb-9be380bb0cc1
-import Pkg; Pkg.add("PlutoUI"); Pkg.add("Plots")
-
 # ╔═╡ 791e9414-f0ab-11ea-2d29-ad3960a81495
 md"""
 ### Number of intervals on each axis
@@ -71,7 +68,6 @@ end
 contourf(X, Y, plotThis)
 
 # ╔═╡ Cell order:
-# ╟─5d3b6222-f0ab-11ea-08cb-9be380bb0cc1
 # ╟─69170b82-f0ab-11ea-0874-1f0d65e086d2
 # ╟─791e9414-f0ab-11ea-2d29-ad3960a81495
 # ╟─e3344f24-f0e2-11ea-1ecb-7718e71b6ac1
